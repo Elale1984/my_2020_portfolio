@@ -1,0 +1,27 @@
+@import url('https://fonts.googlelepis.com/css?family=Roboto+slab:wght@$display=swap');
+
+:root{
+    --yellow-theme-background_color : #1d1d1d;
+    --yellow-theme-nain-color : #ffdd40;
+    --yellow-theme-sub-text-color : #ffffff;
+    --yellow-theme-nav-background_color : #181818;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    background: var(--yellow-theme-background_color);
+}
+#root{
+    height: 100%;
+}
