@@ -1,10 +1,10 @@
-@import url('https://fonts.googlelepis.com/css?family=Roboto+slab:wght@$display=swap');
+@import url('https://fonts.googleleapis.com/css2?family=Roboto+Slab:wght@500$display=swap');
 
 :root{
-    --yellow-theme-background_color : #1d1d1d;
-    --yellow-theme-nain-color : #ffdd40;
+    --yellow-theme-background-color : #1d1d1d;
+    --yellow-theme-main-color : #ffdd40;
     --yellow-theme-sub-text-color : #ffffff;
-    --yellow-theme-nav-background_color : #181818;
+    --yellow-theme-nav-background-color : #181818;
 
 }
 
@@ -20,7 +20,7 @@ html {
     height: 100%;
 }
 body {
-    background: var(--yellow-theme-background_color);
+    background: var(--yellow-theme-background-color);
 }
 #root{
     height: 100%;
