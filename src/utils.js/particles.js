@@ -70,4 +70,4 @@ background: {
     },
   },
   detectRetina: true,
-};
+}
