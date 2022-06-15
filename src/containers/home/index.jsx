@@ -9,8 +9,12 @@ const Home=()=>{
                     <br/>
                     Full Stack Developer
                 </h1>
+                <div className="home__contact-me">
+                <button>Hire Me</button>
             </div>
+            </div>
+           
         </section>
-    );
+    )
 };
 export default Home;
