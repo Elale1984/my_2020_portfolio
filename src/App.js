@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Contact from "./containers/contact";
 import Resume from "./containers/resume";
@@ -29,7 +29,7 @@ function App() {
       <NavBar />
 
       {/* main page content */}
-
+      <div className="App__main-page-content">
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -38,6 +38,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+
+      </div>
+
+      
     </div>
   );
 }
