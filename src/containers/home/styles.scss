@@ -22,7 +22,7 @@
             position: relative;
             overflow: hidden;
             white-space: nowrap;
-            animation: typingEffectAnimation 2.5s steps(30, end);
+            animation: typingEffectAnimation 1.5s steps(30, end);
         }
         
 
@@ -42,6 +42,7 @@
             border: 1.5px solid var(--yellow-theme-main-color);
             border-radius: 4px;
             font-weight: 500;
+           
 
             &:hover{
                 background: var(--yellow-theme-main-color);
@@ -78,6 +79,7 @@
 
 
 }
+
 
 @keyframes typingEffectAnimation {
     from {
