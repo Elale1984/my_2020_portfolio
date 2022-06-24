@@ -9,6 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { data } from "./utils";
 import "./styles.scss";
 import { MdWork } from "react-icons/md";
+import { IoSchool } from "react-icons/io5";
 const Resume = () => {
   return (
     <section id="resume" className="resume">
@@ -32,7 +33,6 @@ const Resume = () => {
                   color: "var(--yellow-theme-sub-text-color)",
                   border: "1.5px solid var(--yellow-theme-main-color)",
                 }}
-                date="2022 - present"
                 icon={<MdWork />}
                 iconStyle={{
                   background: "#181818",
@@ -43,8 +43,16 @@ const Resume = () => {
                   <h3> {item.title}</h3>
                   <h4> {item.subTitle}</h4>
                 </div>
-                <p className="vertical-timeline-element-title-wrapper-description">{item.description}</p>
-                <p className="vertical-timeline-element-title-wrapper-skills">{item.skills}</p>
+                <p className="vertical-timeline-element-title-wrapper-description">
+                  {item.description}
+                </p>
+                <p className="vertical-timeline-element-title-wrapper-skills">
+                <h4>Skills Learned: </h4>
+                  <div className="vertical-timeline-element-title-wrapper-skills__details">{item.skills}</div>
+                </p>
+                <p className="vertical-timeline-element-title-wrapper-date">
+                  {item.date}
+                </p>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
@@ -64,8 +72,7 @@ const Resume = () => {
                   color: "var(--yellow-theme-sub-text-color)",
                   border: "1.5px solid var(--yellow-theme-main-color)",
                 }}
-                date="2022 - present"
-                icon={<MdWork />}
+                icon={<IoSchool />}
                 iconStyle={{
                   background: "#181818",
                   color: "var(--yellow-theme-main-color)",
@@ -75,8 +82,16 @@ const Resume = () => {
                   <h3> {item.title}</h3>
                   <h4> {item.subTitle}</h4>
                 </div>
-                <p className="vertical-timeline-element-title-wrapper-description">{item.description}</p>
-                <p className="vertical-timeline-element-title-wrapper-skills">{item.skills}</p>
+                <p className="vertical-timeline-element-title-wrapper-description">
+                  {item.description}
+                </p>
+                <p className="vertical-timeline-element-title-wrapper-skills">
+                  <h4>Skills Learned: </h4>
+                  <div className="vertical-timeline-element-title-wrapper-skills__details">{item.skills}</div>
+                </p>
+                <p className="vertical-timeline-element-title-wrapper-date">
+                  {item.date}
+                </p>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
