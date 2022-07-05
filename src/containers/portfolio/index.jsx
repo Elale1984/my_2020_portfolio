@@ -5,6 +5,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { filterOptions, portfolioData } from "./utils";
 import './styles.scss';
 
+// portfolio 
 const Portfolio = () => {
   return (
     <section id="portfolio" className="portfolio">
