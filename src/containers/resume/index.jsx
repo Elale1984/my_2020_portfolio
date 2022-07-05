@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeader";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { FaUserTie } from "react-icons/fa";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -15,7 +15,7 @@ const Resume = () => {
     <section id="resume" className="resume">
       <PageHeaderContent
         headerText="My Resume"
-        icon={<BsInfoCircleFill size={40} />}
+        icon={<FaUserTie size={40} />}
       />
       <div className="timeline">
         <div className="timeline__experience">

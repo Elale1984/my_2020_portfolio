@@ -1,13 +1,13 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeader";
-import {BsInfoCircleFill} from 'react-icons/bs'
+import {FaLaptopCode} from 'react-icons/fa'
 
 const Portfolio=()=>{
     return(
         <section id="portfolio" className="portfolio">
         <PageHeaderContent
           headerText="My Portfolio"
-          icon={<BsInfoCircleFill size={40} />}
+          icon={<FaLaptopCode size={40} />}
         />
       </section>
     )
