@@ -16,7 +16,7 @@ const Home = () => {
         <h1>
           Hello, I'm Edward
           <br />
-          Full Stack Developer
+          Full Stack Developer For Hire
         </h1>
         <Animate
           play
@@ -30,7 +30,7 @@ const Home = () => {
           }}
         >
           <div className="home__contact-me">
-            <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+            <button onClick={handleNavigateToContactMePage}>Let's Talk</button>
           </div>
         </Animate>
       </div>
